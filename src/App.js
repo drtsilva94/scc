@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import React from 'react';
-import MinhaImagem from './images/melo_entocado.png'; 
+import MinhaImagem from './images/melinho_entocado2.png'; 
 
 
 function App() {
