@@ -1,0 +1,70 @@
+{
+	"info": {
+		"_postman_id": "f5785a53-4e10-4ce3-9bb8-d8283f7df131",
+		"name": "comandos do scc",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "29941044"
+	},
+	"item": [
+		{
+			"name": "Adicionar Alimento",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"nome\": \"Salada de Verão\",\r\n  \"calorias\": 200\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:3001/adicionar-alimento"
+			},
+			"response": []
+		},
+		{
+			"name": "Listar Alimentos",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:3001/listar-alimentos"
+			},
+			"response": []
+		},
+		{
+			"name": "Calcular Total Calorias",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:3001/calcular-total-calorias"
+			},
+			"response": []
+		}
+	]
+}
